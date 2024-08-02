@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@floral-white: #fffcf2ff;
+@oxford-blue: #061a40ff;
+@sapphire: #0353a4ff;
+@bice-blue: #11101d;
+@prussian-blue: #003559ff;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 3%;
+  /* border-bottom: 0.1px solid; */
+  border-color: rgb(213, 213, 213);
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .menu {
+  width: 40%;
+  font-weight: 500;
+  display: flex;
+  gap: 5%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nmenu {
+  text-decoration: none;
+  color: black;
+}
+
+.postProject {
+  padding: 2.1% 4%;
+  background-color: #11101d;
+  border-radius: 10px;
+}
+
+.postProject a {
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+.signin {
+  padding: 2.1% 4%;
+  background-color: rgb(222, 222, 222);
+  border-radius: 10px;
+}
+
+.signin a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+#logoimg {
+  width: 25%;
+  height: 25px;
+  margin-right: 5%;
+}
+
+main {
+  width: 75%;
+  height: 65vh;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.firstSection {
+  width: 100%;
+  height: 65vh;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("../../assets/fbg.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.firstSection .data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px 40px 40px;
+  gap: 32px;
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  left: 16px;
+  top: 16px;
+}
+
+.siteline {
+  color: white;
+  font-size: 55px;
+  font-weight: bolder;
+}
+
+.searchbar {
+  background-color: white;
+  display: flex;
+  width: 50%;
+  height: 13%;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbar svg {
+  width: 22px;
+  height: 22px;
+  fill: #61788a;
+  margin-right: 20px;
+}
+
+#searchInput {
+  border: 0px solid transparent;
+  outline: none;
+  width: 300px;
+  font-size: 16px;
+}
+
+#searchInput:focus {
+  border: none;
+}
+
+.btnsearch {
+  width: 100px;
+  height: 45px;
+  background-color: #11101d;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btnsearch a {
+  text-decoration: none;
+  color: white;
+}
+
+.trfreelancers {
+  padding-bottom: 5%;
+}
+.trfreelancers .title {
+  margin-top: 2%;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.ratingsdiv {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  align-items: center;
+}
+
+.rcontainer {
+  border: 0.1px solid;
+  border-color: rgb(177, 177, 177);
+  padding: 2% 7%;
+  border-radius: 15px;
+}
+
+.rating {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.noofpeoples {
+  color: gray;
+}
+
+.servicesContainer1,
+.servicesContainer2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  justify-content: space-between;
+}
+
+.service {
+  width: 18%;
+}
+
+.service a {
+  text-decoration: none;
+  color: black;
+}
+.serviceImg {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.servicetxt {
+  margin-top: 2%;
+  font-weight: 500;
+  font-size: 16px;
+}
