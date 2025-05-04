@@ -1,1 +1,1 @@
-# Interior-Design-Project
+This is a web-based Interior Design Project Management System built using HTML, CSS, JavaScript, and PHP. It is designed specifically for interior designers to help them efficiently manage and showcase their projects, as well as organize their work through todo lists.
